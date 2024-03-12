@@ -14,9 +14,9 @@ class MiApp0509 extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/": (context) => PantallaIni_0509(),
-        "/Pantalla1_0509": (context) => Pantalla1_0509(),
-        "/Pantalla2_0509": (context) => Pantalla2_0509(),
+        "/": (context) => const PantallaIni_0509(),
+        "/Pantalla1_0509": (context) => const Pantalla1_0509(),
+        "/Pantalla2_0509": (context) => const Pantalla2_0509(),
       }, //fin ruta pagna
     ); //finde material
   } //fin widget

@@ -20,7 +20,7 @@ class PantallaIni_0509 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0509");
               }, //fin onpressed
-              child: const Text("Mover a pantalla 1"),
+              child: const Text("Ejemplo Card"),
             ),
             ElevatedButton(
               onPressed: () {

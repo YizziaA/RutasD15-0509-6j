@@ -13,13 +13,15 @@ class Pantalla1_0509 extends StatelessWidget {
         backgroundColor: const Color(0xffa8828f),
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {}, //fin onpressed
-              child: const Text("Pantalla1"),
+        child: Card(
+          color: Color(0xb3ffc4c4),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              "Tarjeta Monge",
+              style: TextStyle(fontSize: 30, color: Color(0xcac10303)),
             ),
-          ], //fin de niños
+          ),
         ),
       ),
     );

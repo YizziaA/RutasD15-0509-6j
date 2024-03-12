@@ -9,14 +9,26 @@ class Pantalla2_0509 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla2 Monge0509'),
+        title: const Text('Pantalla2 Monge0509'),
         backgroundColor: const Color(0xff2e8e77),
       ),
       body: Center(
-        child: Text(
-          'pantalla 2',
+          child: Container(
+        width: double.infinity,
+        height: 250,
+        color: Color(0xff3d7559),
+        child: const Card(
+          color: Color(0xff95efc2),
+          margin: EdgeInsets.all(32),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              "Ejemplo pantalla 2 (contenedor)",
+              style: TextStyle(fontSize: 30, color: Color(0xca000000)),
+            ),
+          ),
         ),
-      ),
+      )),
     );
     ;
   } //fin widget
