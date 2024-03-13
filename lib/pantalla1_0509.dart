@@ -10,17 +10,19 @@ class Pantalla1_0509 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla1 Monge0509'),
-        backgroundColor: const Color(0xffa8828f),
+        backgroundColor: const Color(0xff8e0031),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xb3ffc4c4),
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              "Tarjeta Monge",
-              style: TextStyle(fontSize: 30, color: Color(0xcac10303)),
-            ),
+        child: Container(
+          color: Color(0xffec7979),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Yizzia Monge 0509',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
